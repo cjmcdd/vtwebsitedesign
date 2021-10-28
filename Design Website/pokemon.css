@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: #FFD700;
+  display: flex;
+  flex-flow: row;
+  height: 100vh;
+}
+
+.left {
+  background-color: #FFD700;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.center {
+  background-color: #FFD700;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.col {
+  margin: 0;
+}
+
+.top {
+  background-color: #B8860B;
+  flex: 1;
+}
+
+.middle {
+  background-color: #FFD700;
+  flex: 1;
+}
+
+.bottom {
+  background-color: #FFFF00;
+  flex: 1;
+}
+
+.top2 {
+  background-color: #FFD700;
+  flex: 1;
+}
+
+.middle2 {
+  background-color: #FAFAD2;
+  flex: 1;
+}
+
+.bottom2 {
+  background-color: #FFD700;
+  flex: 1;
+}
+
+.top3 {
+  background-color: #FFFF00;
+  flex: 1;
+}
+
+.middle3 {
+  background-color: #FFD700;
+  flex: 1;
+}
+
+
+.bottom3 {
+  background-color: #B8860B;
+  flex: 1;
+}
+
+.right {
+
+  background-color: #FFD700;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.image1 {
+  content: url(https://www.freeiconspng.com/uploads/pikachu-transparent-29.gif);
+  height: 200px;
+  width: 200px;
+}
+
+.image2 {
+  content: url(https://www.animatedimages.org/data/media/278/animated-sun-image-0845.gif);
+  height: 200px;
+  width: 200px;
+}
+.image3 {
+  content: url(https://www.bing.com/th/id/OGC.ba717b238d4f564339bf05505e653506?pid=1.7&rurl=https%3a%2f%2fmir-s3-cdn-cf.behance.net%2fproject_modules%2fdisp%2f3f3a3831234507.564a1d2338123.gif&ehk=OAqG0nglt6IicQWVqf%2fQY5YIc1IzGmrnZtxt77P22hI%3d);
+  height: 200px;
+  width: 200px;
+}
+
+ @media screen and (max-width: 1250px){
+   .top {
+     background-color: black;
+     flex: 1;
+   }
+   .middle {
+     background-color: grey;
+     flex: 1;
+   }
+
+   .bottom {
+     background-color: white;
+     flex: 1;
+   }
+
+   .top2 {
+     background-color: white;
+     flex: 1;
+   }
+
+   .middle2 {
+     background-color: black;
+     flex: 1;
+   }
+
+   .bottom2 {
+     background-color: grey;
+     flex: 1;
+   }
+
+   .top3 {
+     background-color: grey;
+     flex: 1;
+   }
+
+   .middle3 {
+     background-color: white;
+     flex: 1;
+   }
+
+
+   .bottom3 {
+     background-color: black;
+     flex: 1;
+   }
+   .image1 {
+     content: url(https://thumbs.gfycat.com/AdorableCleverKoalabear-max-1mb.gif);
+     height: 200px;
+     width: 200px;
+ }
+ .image2 {
+   content: url(https://www.bing.com/th/id/OGC.ce9a9dac46b326f41eaf45dddce67391?pid=1.7&rurl=https%3a%2f%2fthumbs.gfycat.com%2fOrdinaryThoughtfulDevilfish-size_restricted.gif&ehk=u5G%2bsG58a8Y9UrMFHmuZijj4Pez2vF%2fSanA52VWUsYo%3d);
+   height: 200px;
+   width: 200px;
+ }
+ .image3 {
+   content: url(https://clipartcraft.com/images/skull-transparent-pixel-art-7.png);
+   height: 200px;
+   width: 200px;
+ }
+}
+@media screen and (max-width: 1000px){
+  .top {
+    background-color: #556B2F;
+    flex: 1;
+  }
+  .middle {
+    background-color: #3CB371;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: #BDB76B;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: #BDB76B;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: #556B2F;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: #3CB371;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: #3CB371;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: #BDB76B;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: #556B2F;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://professorlotus.com/Sprites/Bulbasaur.gif);
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://www.bing.com/th/id/OGC.35378f6d00a74cf0bc9fb3e625e39024?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fUr1ePKk5h82J2nKUmm%2fgiphy.gif&ehk=IeoYThiJaS4rPpQ3%2fOvZS5WA9Z%2f8ube8Awx9kvMl3ps%3d);
+  height: 200px;
+  width: 200px;
+}
+.image3 {
+  content: url(https://www.bing.com/th/id/OGC.4cdc9fab8d0597092531d2aca61074d6?pid=1.7&rurl=https%3a%2f%2fmedia3.giphy.com%2fmedia%2fQTyXA9BgXwyJ91rsNA%2fsource.gif&ehk=kd0e81NKCgvk34UZgtSq%2f5k2WGtx23YLz6zEVHGBzQM%3d);
+  height: 200px;
+  width: 200px;
+}
+}

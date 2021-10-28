@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  height: 100vh;
+}
+
+.left {
+  background-color: red;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.center {
+  background-color: green;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.col {
+  margin: 0;
+}
+
+.top {
+  background-color: blue;
+  flex: 1;
+}
+
+.middle {
+  background-color: yellow;
+  flex: 1;
+}
+
+.bottom {
+  background-color: cyan;
+  flex: 1;
+}
+
+.top2 {
+  background-color: white;
+  flex: 1;
+}
+
+.middle2 {
+  background-color: black;
+  flex: 1;
+}
+
+.bottom2 {
+  background-color: grey;
+  flex: 1;
+}
+
+.top3 {
+  background-color: saddlebrown;
+  flex: 1;
+}
+
+.middle3 {
+  background-color: magenta;
+  flex: 1;
+}
+
+.bottom3 {
+  background-color: pink;
+  flex: 1;
+}
+
+.right {
+
+  background-color: magenta;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}

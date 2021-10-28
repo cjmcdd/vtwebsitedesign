@@ -1,0 +1,1267 @@
+body {
+  background-image: url(https://d1lss44hh2trtw.cloudfront.net/assets/article/2019/06/28/how-to-switch-day-night-mode-super-mario-maker-2-course-maker_feature.jpg);
+  margin: 0;
+   background-attachment: relative;
+   background-size: cover;
+}
+.animated {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+}
+.container {
+  background-color: inherit;
+  display: flex;
+  flex-flow: row;
+  height: 100vh;
+}
+
+.left {
+  background-color: inherit;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.center {
+  background-color: inherit;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.col {
+  margin: 0;
+}
+
+.top {
+  background-color: inherit;
+  flex: 1;
+}
+
+.middle {
+  background-color: inherit;
+  flex: 1;
+}
+
+.bottom {
+  background-color: inherit;
+  flex: 1;
+}
+
+.top2 {
+  background-color: inherit;
+  flex: 1;
+}
+
+.middle2 {
+  background-color: inherit;
+  flex: 1;
+}
+
+.bottom2 {
+  background-color: inherit;
+  flex: 1;
+}
+
+.top3 {
+  background-color: inherit;
+  flex: 1;
+}
+
+.middle3 {
+  background-color: inherit;
+  flex: 1;
+}
+
+
+.bottom3 {
+  background-color: inherit;
+  flex: 1;
+}
+
+.right {
+
+  background-color: inherit;
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.image1 {
+  content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+  height: 200px;
+  width: 200px;
+}
+
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+
+@media screen and (max-width: 1300px) {
+
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+
+}
+@media screen and (max-width: 1250px) {
+  body {
+    background-image: url(https://i.imgur.com/RnZFYXK.png);
+    margin: 0;
+     background-attachment: relative;
+     background-size: cover;
+  }
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 1200px) {
+  body {
+    background-image: url(https://i.imgur.com/RnZFYXK.png);
+    margin: 0;
+     background-attachment: relative;
+     background-size: cover;
+  }
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 1150px) {
+  body {
+    background-image: url(https://i.imgur.com/RnZFYXK.png);
+    margin: 0;
+     background-attachment: relative;
+     background-size: cover;
+  }
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 1100px) {
+  body {
+    background-image: url(https://i.imgur.com/RnZFYXK.png);
+    margin: 0;
+     background-attachment: relative;
+     background-size: cover;
+  }
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 1050px) {
+  body {
+    background-image: url(https://i.imgur.com/RnZFYXK.png);
+    margin: 0;
+     background-attachment: relative;
+     background-size: cover;
+  }
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-image: url(https://technabob.com/blog/wp-content/uploads/2018/06/best_mario_level_ever_1.jpg);
+    margin: 0;
+     background-attachment: relative;
+     background-size: cover;
+  }
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 950px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 900px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 850px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 800px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 750px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 700px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 650px) {
+  body {
+    background-color: white;
+    margin: 0;
+     background-attachment: relative;
+     background-size: cover;
+  }
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 600px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://cdn.friendsoftheearth.uk/sites/default/files/styles/body_text_image/public/media/images/transparent-hd.png?itok=-WmIW1gW);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 550px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://www.nicepng.com/png/full/110-1108890_start-button-game-start-button-png.png);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://gifimage.net/wp-content/uploads/2017/09/blinking-arrow-gif-3.gif);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 500px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://webstockreview.net/images/mario-clipart-pixel-mario-13.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://www.nicepng.com/png/full/110-1108890_start-button-game-start-button-png.png);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://gifimage.net/wp-content/uploads/2017/09/blinking-arrow-gif-3.gif);
+  height: 200px;
+  width: 300px;
+}
+}
+@media screen and (max-width: 450px) {
+  .top {
+    background-color: inherit;
+    flex: 1;
+  }
+  .middle {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom2 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .top3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .middle3 {
+    background-color: inherit;
+    flex: 1;
+  }
+
+  .bottom3 {
+    background-color: inherit;
+    flex: 1;
+  }
+  .image1 {
+    content: url(https://clipartcraft.com/images/mario-transparent-retro-3.png);
+    position: fixed;
+    height: 200px;
+    width: 200px;
+}
+.image2 {
+  content: url(https://www.nicepng.com/png/full/110-1108890_start-button-game-start-button-png.png);
+  height: 200px;
+  width: 300px;
+}
+.image3 {
+  content: url(https://gifimage.net/wp-content/uploads/2017/09/blinking-arrow-gif-3.gif);
+  height: 200px;
+  width: 300px;
+}
+}
