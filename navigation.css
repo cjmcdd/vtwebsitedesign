@@ -1,0 +1,678 @@
+body {
+  margin: 0;
+  background-attachment: relative;
+  overflow: hidden;
+}
+
+.animated {
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.animated1 {
+  animation-duration: 26s;
+  animation-iteration-count: infinite;
+}
+
+.animated2 {
+  animation-duration: 27s;
+  animation-iteration-count: infinite;
+}
+
+.animated3 {
+  animation-duration: 29s;
+  animation-iteration-count: infinite;
+}
+
+.animated4 {
+  animation-duration: 31s;
+  animation-iteration-count: infinite;
+}
+
+.animated5 {
+  animation-duration: 28s;
+  animation-iteration-count: infinite;
+}
+
+.animated6 {
+  animation-duration: 150s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flip {
+  0% {
+    transform: perspective(400px) translateZ(0) rotateY(0) scale(1);
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    transform: perspective(400px) translateZ(150px) rotateY(170deg) scale(1);
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(.95);
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    transform: perspective(400px) translateZ(0) rotateY(360deg) scale(1);
+    animation-timing-function: ease-in;
+  }
+}
+
+.flip {
+  backface-visibility: visible;
+  animation-name: flip;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  75% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+@keyframes screenmove1 {
+  0% {
+    left: 110%;
+  }
+
+  100% {
+    left: -110%;
+  }
+}
+
+.screenmove1 {
+  animation-name: screenmove1;
+}
+
+@keyframes screenmove2 {
+  0% {
+    left: -110%;
+  }
+
+  100% {
+    left: 110%;
+  }
+}
+
+.screenmove2 {
+  animation-name: screenmove2;
+}
+
+@keyframes screenmove3 {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+.screenmove3 {
+  animation-name: screenmove3;
+}
+
+@keyframes screenmove4 {
+  0% {
+    left: 160%;
+  }
+
+  100% {
+    left: -160%;
+  }
+}
+
+.screenmove4 {
+  animation-name: screenmove4;
+}
+
+@keyframes screenmove5 {
+  0% {
+    top: -50%;
+  }
+
+  25% {
+    top: 50%;
+  }
+
+  50% {
+    top: 109%;
+  }
+
+  75% {
+    top: 109%;
+  }
+
+  100% {
+    top: 109%;
+  }
+}
+
+.screenmove5 {
+  animation-name: screenmove5;
+}
+
+@keyframes screenmove6 {
+  0% {
+    top: -100%;
+  }
+
+  25% {
+    top: -100%;
+  }
+
+  50% {
+    top: -2%;
+  }
+
+  75% {
+    top: 50%;
+  }
+
+  100% {
+    top: 109%
+  }
+}
+
+.screenmove6 {
+  animation-name: screenmove6;
+}
+
+.title {
+  font-family: "Georgia", Times, serif;
+  font-size: 28px;
+  padding: 20px;
+  color: #696969;
+  filter: blur(1px);
+}
+
+.canvas {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px auto;
+  /* background-color: grey; */
+}
+
+.heading1 {
+  z-index: 10;
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  width: 350px;
+  height: 350px;
+  border: 0px solid inherit;
+  background: #DAA520;
+  border-radius: 50%;
+  opacity: 0.5;
+  filter: blur(8px);
+  margin: 0 auto;
+}
+
+.heading3 {
+  z-index: 1;
+  position: absolute;
+  top: 53px;
+  left: 655px;
+  width: 250px;
+  height: 150px;
+  border: 0px solid inherit;
+  background: inherit;
+  border-radius: 50%;
+}
+
+.headingshadow {
+  z-index: 1;
+  position: absolute;
+  width: 350;
+  height: 350px;
+  left: 50%;
+  top: 50%;
+  background: #F8F8FF;
+  border: 0px solid inherit;
+  border-radius: 50%;
+  opacity: 0.5;
+  filter: blur(8px);
+}
+
+.cloud1 {
+  z-index: 10;
+  position: absolute;
+  top: 150px;
+  width: 100px;
+  height: 100px;
+  left: 470px;
+  background: inherit;
+  filter: blur(5px);
+}
+
+.cloud2 {
+  z-index: 10;
+  position: absolute;
+  top: 250px;
+  width: 100px;
+  height: 100px;
+  left: 600px;
+  background: inherit;
+  filter: blur(5px);
+}
+
+.cloud3 {
+  z-index: 10;
+  position: absolute;
+  top: 350px;
+  width: 100px;
+  height: 100px;
+  left: 20px;
+  background: inherit;
+  filter: blur(5px);
+}
+
+.cloud4 {
+  z-index: 10;
+  position: absolute;
+  top: 450px;
+  width: 100px;
+  height: 100px;
+  left: 900px;
+  background: inherit;
+  filter: blur(5px);
+}
+
+.star1 {
+  z-index: 1;
+  position: absolute;
+  top: 520px;
+  left: 60px;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  filter: blur(3px);
+}
+
+.star2 {
+  z-index: 1;
+  position: absolute;
+  top: 130px;
+  left: 180px;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  filter: blur(3px);
+}
+
+.star3 {
+  z-index: 1;
+  position: absolute;
+  top: 630px;
+  left: 400px;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  filter: blur(3px);
+}
+
+.star4 {
+  z-index: 1;
+  position: absolute;
+  top: 270px;
+  left: 600px;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  filter: blur(3px);
+}
+
+.star5 {
+  z-index: 1;
+  position: absolute;
+  top: 550px;
+  left: 800px;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  filter: blur(3px);
+}
+
+.star6 {
+  z-index: 1;
+  position: absolute;
+  top: 130px;
+  left: 1090;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  filter: blur(3px);
+}
+
+.star7 {
+  z-index: 1;
+  position: absolute;
+  top: 650px;
+  left: 1115px;
+  width: 50px;
+  height: 50px;
+  background: inherit;
+  filter: blur(3px);
+}
+
+.bird {
+  z-index: 10;
+  position: absolute;
+  top: 150px;
+  width: 100px;
+  height: 100px;
+  left: 600px;
+  background: inherit;
+  filter: blur(2px);
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  z-index: 5;
+  filter: blur(1px);
+  top: 590px;
+  left: 35px;
+}
+
+.dropdown-content1 a {
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover {
+  background-color: white;
+}
+
+.dropdown1:hover .dropdown-content1 {
+  position: absolute;
+  display: block;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  z-index: 5;
+  filter: blur(1px);
+  top: 200px;
+  left: 155px;
+}
+
+.dropdown-content2 a {
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {
+  background-color: white;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  position: absolute;
+  display: block;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  min-width: 160px;
+  max-height: 160px;
+  z-index: 5;
+  filter: blur(1px);
+  top: 700px;
+  left: 375px;
+}
+
+.dropdown-content3 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content3 a:hover {
+  background-color: white;
+}
+
+.dropdown3:hover .dropdown-content3 {
+  position: absolute;
+  display: block;
+}
+
+.dropdown4 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  min-width: 160px;
+  max-height: 160px;
+  z-index: 5;
+  filter: blur(1px);
+  top: 340px;
+  left: 575px;
+}
+
+.dropdown-content4 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-conten4t a:hover {
+  background-color: white;
+}
+
+.dropdown4:hover .dropdown-content4 {
+  position: absolute;
+  display: block;
+}
+
+.dropdown5 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content5 {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  min-width: 160px;
+  max-height: 160px;
+  z-index: 5;
+  filter: blur(1px);
+  top: 620px;
+  left: 775px;
+}
+
+.dropdown-content5 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content5 a:hover {
+  background-color: white;
+}
+
+.dropdown5:hover .dropdown-content5 {
+  position: absolute;
+  display: block;
+}
+
+.dropdown6 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content6 {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  min-width: 160px;
+  max-height: 160px;
+  z-index: 5;
+  filter: blur(1px);
+  top: 200px;
+  left: 1065;
+}
+
+.dropdown-content6 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content6 a:hover {
+  background-color: white;
+}
+
+.dropdown6:hover .dropdown-content6 {
+  position: absolute;
+  display: block;
+}
+
+.dropdown7 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content7 {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  min-width: 160px;
+  max-height: 160px;
+  z-index: 5;
+  filter: blur(1px);
+  top: 720px;
+  left: 1090px;
+}
+
+.dropdown-content7 a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content7 a:hover {
+  background-color: white;
+}
+
+.dropdown7:hover .dropdown-content7 {
+  position: absolute;
+  display: block;
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+}
+
+#clockContainer {
+  position: relative;
+  margin: auto;
+  height: 50vh;
+  width: 50vw;
+}
+
+#hour, #minute, #second {
+  position: absolute;
+  background: inherit;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1.5%;
+  height: 35%;
+  top: 25%;
+  left: 48.85%;
+}
+
+#minute {
+  width: 1.25%;
+  height: 40%;
+  top: 19%;
+  left: 48.9%;
+}
+
+#second {
+  width: 1%;
+  height: 80%;
+  top: 2%;
+  left: 49.25%;
+}
+
+.second {
+  z-index: 1;
+  position: absolute;
+  top: 9%;
+  left: 49.25%;
+}
+
+.minute {
+  z-index: 1;
+  position: absolute;
+  top: 19%;
+  left: 48.9%;
+}
+
+.hour {
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 48.85%;
